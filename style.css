@@ -234,16 +234,28 @@ hr {
     margin-top: 5px;
     font-weight: 700;
     padding-top: 50px;
-   
+    transition: width 1s, height 5s, trasform 5s ;
 
 }
+/*----- transform------- 
+----------------------*/
+.item:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(60deg);
+}
+/*----- transform------- 
+----------------------*/
 
-.some-title {
+
+.some-item {
     font-size: 35px;
     color: #131313;
     margin-bottom: 5px;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 .number {
@@ -307,3 +319,14 @@ footer {
     padding-top: 25px;
     margin-bottom: 50px;
 }   
+
+
+
+/* media queries */
+
+@media only screen  and(max-width:576px) {
+    .banner-container{
+
+    }
+    
+}
