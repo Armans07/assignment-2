@@ -12,7 +12,7 @@
 .main-container {
     width: 75%;
     border: 1px solid red;
-    margin-left: 150px;
+    margin-left: 165px;
 }
 
 
@@ -35,6 +35,7 @@
     color: #727272;
     font-weight: 400;
     size: 14px;
+    margin-top: 10px;
 }
 
 .btn-primary {
@@ -63,7 +64,8 @@
     display: flex;
     text-align: right center;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
+    margin-left: 100px;
 }
 
 .quick-iamge {
@@ -75,13 +77,18 @@
 }
 
 .q-title {
-    font-size: 40px;
-
+    font-size: 35px;
+    margin-bottom: 10px;
 
 }
 
 .quiz-title {
     width: 45%;
+}
+
+.quick-container img {
+    width: 200px;
+
 }
 
 /* fiture style */
@@ -100,28 +107,114 @@
 }
 
 .button {
-    height: 120px;
-    width: 250px;
-
+    height: 110px;
+    width: 220px;
     background-color: #FF900E;
     border-radius: 5px;
-    text-align: center;
     color: #FFFFFF;
-    font-weight: 700;
-    font-size: 20px;
-    margin-left: 362px;
-    margin-top: -45px;
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 550px;
+    margin-top: -105px;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+}
+
+.expreienc {
+    display: block;
+    font-size: 15px;
+}
+
+.fiture-title {
+    margin-left: 10px;
 }
 
 .fiture-image img {
     overflow: hidden;
-    width: 400px;
+    width: 420px;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+.main-f-title{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+hr{
+    width: 80px;
+    justify-items: left;
 }
 
-.quick-container img {
-    width: 200px;
+.sub-title {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-left: 5px;
+    
+    
 }
+
+.fiture-sub-title{
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.sub-title-description {
+    color: #727272;
+   font-size: 14px;
+   padding-bottom:15px;
+   padding-top: 10px;
+   padding-left: 10px;
+}
+
+/* some item style */
+
+.some-container{
+    margin-top: 100px;
+}
+
+.some-item{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    
+}
+
+.item{
+    border: 2px solid  #FF900E;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* sponsors style */
+
+.spomspors-container{
+    margin-top: 100px;
+}
+
+.sponsor-logo{
+    margin-top: 70px;
+    gap: 50px;
+    display: flex;
+    gap: 10px;
+   
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: #FF900E;
+}
+    
