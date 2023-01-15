@@ -4,6 +4,11 @@
 
 /* main container */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .main-container {
     width: 75%;
     border: 1px solid red;
@@ -43,9 +48,13 @@
     font-size: 15px;
     font-weight: 700;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.banner-image {}
+
+.banner-image img {
+    width: 75%;
+}
 
 /* Quick list style */
 
@@ -53,15 +62,26 @@
     margin-top: 100px;
     display: flex;
     text-align: right center;
+    align-items: center;
+    gap: 10px;
+}
 
-
-
-
+.quick-iamge {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid: auto auto;
+    gap: 20px;
+    width: 45%;
 }
 
 .q-title {
     font-size: 40px;
 
+
+}
+
+.quiz-title {
+    width: 45%;
 }
 
 /* fiture style */
@@ -70,29 +90,38 @@
 .fiture-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
 
 }
 
-.main-f-title{
-    font
-}
-
-.sub-title{
+.sub-title {
     font-size: 20px;
-    
+
 }
-
-
 
 .button {
     height: 120px;
     width: 250px;
-    border: 1px solid purple;
+
     background-color: #FF900E;
     border-radius: 5px;
     text-align: center;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
-    margin-left: 200px;
+    margin-left: 362px;
+    margin-top: -45px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fiture-image img {
+    overflow: hidden;
+    width: 400px;
+}
+
+.quick-container img {
+    width: 200px;
 }
