@@ -1,27 +1,56 @@
 /* font */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Sofia+Sans&family=Work+Sans:wght@500;700&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Sofia+Sans&family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,200&display=swap');
+
 
 /* main container */
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
+
+
 }
 
 .main-container {
     width: 75%;
-    border: 1px solid red;
     margin-left: 165px;
 }
 
+/* menu var */
+.topnav{
+    display: flex;
+    justify-content: space-between ;
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right:200px ;
+    
+}
+.topnav ul {
+    display: flex;
+    gap: 40px;
+    
+}
+.topnav h3{
+font-size: 35px;
+}
+a{
+    text-decoration: none;
+    color: #424242;
+    
+}
 
 /* banner-header style */
 
 .banner-container {
     text-align: center;
     background-color: rgba(255, 144, 14, 0.1);
-    ;
+    padding-top: 82px;
 
 }
 
@@ -107,15 +136,15 @@
 }
 
 .button {
-    height: 110px;
+    height: 120px;
     width: 220px;
     background-color: #FF900E;
     border-radius: 5px;
     color: #FFFFFF;
     font-weight: 800;
     font-size: 30px;
-    margin-left: 550px;
-    margin-top: -105px;
+    margin-left: 520px;
+    margin-top: -50px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -130,6 +159,9 @@
 
 .fiture-title {
     margin-left: 10px;
+    border-left: 5px solid #FF900E;
+    height: 90px;
+
 }
 
 .fiture-image img {
@@ -137,13 +169,16 @@
     width: 420px;
     margin-left: 100px;
     margin-top: 10px;
-    
+
 }
-.main-f-title{
+
+.main-f-title {
     font-size: 40px;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
-hr{
+
+hr {
     width: 80px;
     justify-items: left;
 }
@@ -154,11 +189,11 @@ hr{
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     margin-left: 5px;
-    
-    
+
+
 }
 
-.fiture-sub-title{
+.fiture-sub-title {
     font-weight: 600;
     font-size: 22px;
     padding-top: 5px;
@@ -167,54 +202,108 @@ hr{
 
 .sub-title-description {
     color: #727272;
-   font-size: 14px;
-   padding-bottom:15px;
-   padding-top: 10px;
-   padding-left: 10px;
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 /* some item style */
 
-.some-container{
-    margin-top: 100px;
+.some-container {
+    margin-top: 130px;
+    margin-left: 20px;
+
 }
 
-.some-item{
+.some-item {
     margin-top: 100px;
     display: flex;
     justify-content: center;
-    gap: 100px;
-    text-align: center;
+    gap: 70px;
     
+
 }
 
-.item{
-    border: 2px solid  #FF900E;
-    height: 150px;
-    width: 150px;
-    align-items: center;
-    justify-content: center;
+.item {
+    border: 2px solid #FF900E;
+    height: 180px;
+    width: 180px;
     text-align: center;
     border-radius: 8px;
+    margin-top: 5px;
+    font-weight: 700;
+    padding-top: 50px;
+   
+
+}
+
+.some-title {
+    font-size: 35px;
+    color: #131313;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    font-size: 30px;
+    font-weight: 700;
+    color: #424242;
+}
+
+.number-title {
+    font-size: 15px;
+    color: #727272;
 }
 
 /* sponsors style */
 
-.spomspors-container{
-    margin-top: 100px;
-}
-
-.sponsor-logo{
-    margin-top: 70px;
-    gap: 50px;
-    display: flex;
-    gap: 10px;
-   
-}
-
-footer{
-    margin-top: 50px;
-    text-align: center;
-    background-color: #FF900E;
-}
+.spomspors-container {
+    margin-top: 150px;
     
+}
+
+.sponsor-title {
+    text-align: center;
+}
+
+.sponsor-logo {
+    margin-top: 30px;
+    display: flex;
+    gap: 115px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.sponsor-logo img {
+    width: 100px;
+
+}
+
+.sponsor-title h3 {
+    font-size: 40px;
+}
+
+.sponsor-title p {
+    margin-top: 25px;
+    color: #727272;
+    font-size: 16px;
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #FFF4E7;
+    height: 40px;
+    justify-items: center;
+    color: #424242;
+    border-radius: 8px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}   
